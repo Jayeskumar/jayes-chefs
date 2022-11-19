@@ -255,7 +255,7 @@ def main():
                     f"your food? "
                 )
             else:
-                gen_kw = chef_top if chef == "Chef Jayes" else chef_beam
+                gen_kw = chef_top if chef == "Chef Giovanni" else chef_beam
                 generated_recipe = generator.generate(items, gen_kw)
 
                 title = generated_recipe["title"]
