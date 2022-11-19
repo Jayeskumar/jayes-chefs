@@ -1,5 +1,5 @@
 EXAMPLES = {
-    "Turkish Food 1": "phyllo dough, unsalted butter, walnuts, cinnamon, water, honey, melted chocolate",
+    "Indian Food 1": "phyllo dough, unsalted butter, walnuts, cinnamon, water, honey, melted chocolate",
     "Persian Food 1": "beef, oil, onion, tomatoes, turmeric powder, limes, water, salt, pepper, red beans, herb",
     "Persian Food 2": "beef, potatoes, eggs, onion, flour, turmeric powder, oil, salt, pepper",
     "Persian Food 3": "walnut pieces, onion, boneless skinless chicken thighs, pomegranate molasses, orange juice, chicken stock, cinnamon, salt, pepper, oil",
