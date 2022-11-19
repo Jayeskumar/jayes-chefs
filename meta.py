@@ -2,7 +2,7 @@ HEADER_INFO = """""".strip()
 SIDEBAR_INFO = """
 <div class="contributors font-body text-bold">
 <a class="contributor comma" href="https://huggingface.co/m3hrdadfi">Jayeskumar M</a>
-<a class="contributor comma" href="https://huggingface.co/dk-crazydiv">Akila V</a>
+
 
 </div>
 """
