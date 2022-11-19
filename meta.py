@@ -1,11 +1,9 @@
 HEADER_INFO = """""".strip()
 SIDEBAR_INFO = """
 <div class="contributors font-body text-bold">
-<a class="contributor comma" href="https://huggingface.co/m3hrdadfi">Mehrdad Farahani</a>
-<a class="contributor comma" href="https://huggingface.co/dk-crazydiv">Kartik Godawat</a>
-<a class="contributor comma" href="https://huggingface.co/hassiahk">Haswanth Aekula</a>
-<a class="contributor comma" href="https://huggingface.co/rays2pix">Deepak Pandian</a>
-<a class="contributor comma" href="https://huggingface.co/nbroad">Nicholas Broad</a>
+<a class="contributor comma" href="https://huggingface.co/m3hrdadfi">Jayeskumar M</a>
+<a class="contributor comma" href="https://huggingface.co/dk-crazydiv">Akila V</a>
+
 </div>
 """
 CHEF_INFO = """
