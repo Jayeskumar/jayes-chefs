@@ -185,7 +185,7 @@ chef_beam = {
 
 def main():
     st.set_page_config(
-        page_title="Chef Transformer",
+        page_title="Chef in Your Hand",
         page_icon="🍲",
         layout="wide",
         initial_sidebar_state="expanded"
