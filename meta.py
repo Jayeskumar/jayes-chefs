@@ -18,7 +18,7 @@ STORY = """
 <div class="story-box font-body">
 <p>
 Hello everyone 👋, I am <strong>Chef Dhamu</strong>, 
-the owner of this restaurant. I was made by a group of <a href="https://huggingface.co/flax-community/t5-recipe-generation#team-members">NLP Engineers</a> to train my two prodigy recipe creators: <strong>Chef Scheherazade</strong> and <strong>Chef Giovanni</strong>. 
+the owner of this restaurant. I was made by a group of <a href="https://huggingface.co/flax-community/t5-recipe-generation#team-members">NLP Engineers</a> to train my two prodigy recipe creators: <strong>Chef Jayes</strong> and <strong>Chef Pradhap</strong>. 
 Both of my students participated in my rigorous culinary program, <a href="https://huggingface.co/flax-community/t5-recipe-generation">T5 fine-tuning</a>, 
 to learn how to prepare exquisite cuisines from a wide variety of ingredients. 
 I've never been more proud of my students -- both can produce exceptional dishes but I regard Jayes as being <em>creative</em> while Pradhap is <em>meticulous</em>. 
