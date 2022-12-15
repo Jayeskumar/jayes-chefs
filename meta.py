@@ -1,16 +1,16 @@
 HEADER_INFO = """""".strip()
 SIDEBAR_INFO = """
 <div class="contributors font-body text-bold">
-<a class="contributor comma" href="https://huggingface.co/m3hrdadfi">Jayeskumar M</a>
+<a class="contributor comma" href="https://huggingface.co/m3hrdadfi">Dhoushini S</a>
 
 
 </div>
 """
 CHEF_INFO = """
-<h2 class="font-title">Welcome to  Jayes's Restaurant! </h2>
+<h2 class="font-title">Welcome to  Crazy  Restaurant! </h2>
 <p class="strong font-body">
-<span class="d-block extra-info">(We are at your service with two of the best chefs in the world: Chef Jayes, 
-Chef Pradhap. Jayes is known for being more creative whereas Pradhap is more meticulous.)</span>
+<span class="d-block extra-info">(We are at your service with two of the best chefs in the world: Chef Ragavi, 
+Chef Dhoushini. Ragavi is known for being more creative whereas Dhoushini is more meticulous.)</span>
 </p>
 """.strip()
 PROMPT_BOX = "Add custom ingredients here (separated by `,`): "
