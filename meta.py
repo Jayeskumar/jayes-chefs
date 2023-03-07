@@ -7,10 +7,9 @@ SIDEBAR_INFO = """
 </div>
 """
 CHEF_INFO = """
-<h2 class="font-title">Welcome to  Crazy  Restaurant! </h2>
+<h2 class="font-title">Welcome to  Jayes's Restaurant! </h2>
 <p class="strong font-body">
-<span class="d-block extra-info">(We are at your service with two of the best chefs in the world: Chef Ragavi, 
-Chef Dhoushini. Ragavi is known for being more creative whereas Dhoushini is more meticulous.)</span>
+<span class="d-block extra-info">(chose your dish.)</span>
 </p>
 """.strip()
 PROMPT_BOX = "Add custom ingredients here (separated by `,`): "
