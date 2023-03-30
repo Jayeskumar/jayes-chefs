@@ -115,7 +115,7 @@ class TextGeneration:
             self.main_frame,
             food_logo,
             self.fonts,
-            bg_color="#ffffff"
+            bg_color="#4aa832"
         )
         return frame
 
