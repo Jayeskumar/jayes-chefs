@@ -212,7 +212,7 @@ def main():
         st.markdown(meta.HEADER_INFO, unsafe_allow_html=True)
 
         st.markdown(meta.CHEF_INFO, unsafe_allow_html=True)
-        chef = st.selectbox("Choose your chef", index=0, options=["Chef Jayes", "Chef Jayes"])
+        chef = st.selectbox("Choose your chef", index=0, options=["Chef Scheherazade", "Chef Giovanni"])
 
         prompts = list(EXAMPLES.keys()) + ["Custom"]
         prompt = st.selectbox(
@@ -255,7 +255,7 @@ def main():
                     f"your food? "
                 )
             else:
-                gen_kw = chef_top if chef == "Chef Jayes" else chef_beam
+                gen_kw = chef_top if chef == "Chef Scheherazade" else chef_beam
                 generated_recipe = generator.generate(items, gen_kw)
 
                 title = generated_recipe["title"]
