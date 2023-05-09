@@ -7,6 +7,7 @@ from transformers import AutoTokenizer
 from PIL import (
     ImageFont,
 )
+
 import os
 import re
 import random
@@ -184,7 +185,7 @@ chef_beam = {
 
 def main():
     st.set_page_config(
-        page_title="Chef in Your Hand",
+        page_title="Chef Transformer",
         page_icon="🍲",
         layout="wide",
         initial_sidebar_state="expanded"
@@ -254,7 +255,7 @@ def main():
                     f"your food? "
                 )
             else:
-                gen_kw = chef_top if chef == "Chef Giovanni" else chef_beam
+                gen_kw = chef_top if chef == "Chef Scheherazade" else chef_beam
                 generated_recipe = generator.generate(items, gen_kw)
 
                 title = generated_recipe["title"]
@@ -313,5 +314,7 @@ def main():
                         ]),
                         unsafe_allow_html=True
                     )
+
+
 if __name__ == '__main__':
     main()
