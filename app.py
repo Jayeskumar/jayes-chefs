@@ -7,7 +7,6 @@ from transformers import AutoTokenizer
 from PIL import (
     ImageFont,
 )
-
 import os
 import re
 import random
