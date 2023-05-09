@@ -190,7 +190,7 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded"
     )
-   generator = load_text_generator()
+    generator = load_text_generator()
     # if hasattr(st, "session_state"):
     #     if 'get_random_frame' not in st.session_state:
     #         st.session_state.get_random_frame = generator.frames[0]
