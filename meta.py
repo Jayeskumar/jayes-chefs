@@ -7,7 +7,7 @@ SIDEBAR_INFO = """
 </div>
 """
 CHEF_INFO = """
-<h2 class="font-title">Welcome to  Jayes's Restaurant! </h2>
+<h2 class="font-title">Welcome to  Crazy Restaurant! </h2>
 <p class="strong font-body">
 <span class="d-block extra-info">(chose your dish.)</span>
 </p>
