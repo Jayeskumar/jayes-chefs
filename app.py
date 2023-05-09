@@ -23,7 +23,6 @@ from utils.st import (
     local_css,
 
 )
-a=7
 from utils.utils import (
     load_image_from_url,
     load_image_from_local,
@@ -191,7 +190,7 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded"
     )
-    generator =0
+    generator = load_text_generator()
     # if hasattr(st, "session_state"):
     #     if 'get_random_frame' not in st.session_state:
     #         st.session_state.get_random_frame = generator.frames[0]
