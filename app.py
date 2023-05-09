@@ -190,12 +190,13 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded"
     )
-    generator = load_text_generator()
+    #generator = load_text_generator()
     # if hasattr(st, "session_state"):
     #     if 'get_random_frame' not in st.session_state:
     #         st.session_state.get_random_frame = generator.frames[0]
     # else:
     #     get_random_frame = generator.frames[0]
+    generator = load_text_generator()
 
     remote_css("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@600&display=swap")
     local_css("asset/css/style.css")
