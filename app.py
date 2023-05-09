@@ -185,18 +185,17 @@ chef_beam = {
 
 def main():
     st.set_page_config(
-        page_title="Chef Transformer",
+        page_title="Chef in Your Hand",
         page_icon="🍲",
         layout="wide",
         initial_sidebar_state="expanded"
     )
-    #generator = load_text_generator()
+    generator = load_text_generator()
     # if hasattr(st, "session_state"):
     #     if 'get_random_frame' not in st.session_state:
     #         st.session_state.get_random_frame = generator.frames[0]
     # else:
     #     get_random_frame = generator.frames[0]
-    generator = load_text_generator()
 
     remote_css("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@600&display=swap")
     local_css("asset/css/style.css")
@@ -256,7 +255,7 @@ def main():
                     f"your food? "
                 )
             else:
-                gen_kw = chef_top if chef == "Chef Scheherazade" else chef_beam
+                gen_kw = chef_top if chef == "Chef Giovanni" else chef_beam
                 generated_recipe = generator.generate(items, gen_kw)
 
                 title = generated_recipe["title"]
