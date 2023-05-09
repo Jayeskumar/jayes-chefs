@@ -182,7 +182,6 @@ chef_beam = {
     "num_return_sequences": 1
 }
 
-
 def main():
     st.set_page_config(
         page_title="Chef Transformer",
@@ -314,7 +313,6 @@ def main():
                         ]),
                         unsafe_allow_html=True
                     )
-
 
 if __name__ == '__main__':
     main()
