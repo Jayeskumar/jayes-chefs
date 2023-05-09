@@ -181,8 +181,7 @@ chef_beam = {
     "length_penalty": 1.5,
     "num_return_sequences": 1
 }
-
-
+generator = load_text_generator()
 def main():
     st.set_page_config(
         page_title="Chef Transformer",
@@ -190,7 +189,8 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded"
     )
-    generator = load_text_generator()
+    
+  
     # if hasattr(st, "session_state"):
     #     if 'get_random_frame' not in st.session_state:
     #         st.session_state.get_random_frame = generator.frames[0]
